@@ -1,0 +1,17 @@
+.carousel-item{
+  height: 19rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.carousel-indicators{
+  position: relative;
+  margin: 0;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: var(--Vermelho);
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+}
