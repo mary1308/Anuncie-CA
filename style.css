@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root{
+:root {
     --Branco: #FDFCFC;
     --Vermelho: #D83527;
     --CinzaEscuro: #343A40;
     --CinzaClaro: #F3F3F3;
-    --CinzaMedio:  #7C7C7D;
+    --CinzaMedio: #7C7C7D;
     --Preto: #030301;
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.body{
+.body {
     width: 100vh;
 }
 
-.apresentation{
+.apresentation {
     padding: 0.5rem 6.5rem;
     align-self: stretch;
     background-color: var(--Branco);
@@ -30,7 +30,7 @@
     gap: 4rem;
 }
 
-.apresentation > .texts{
+.apresentation>.texts {
     width: 28.1875rem;
     padding: 4rem 0rem;
     display: flex;
@@ -39,18 +39,18 @@
     gap: 1.625rem;
 }
 
-.apresentation > .texts > h3{
+.apresentation>.texts>h3 {
     font-family: "Poppins";
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 700;
 }
 
-.apresentation > .texts > h3 > span{
+.apresentation>.texts>h3>span {
     color: var(--Vermelho);
 }
 
-.apresentation > .texts > .anuncie{
+.apresentation>.texts>.anuncie {
     color: var(--CinzaEscuro);
     font-family: "Montserrat";
     font-size: 1rem;
@@ -58,7 +58,7 @@
     font-weight: 400;
 }
 
-.apresentation > .texts > .about{
+.apresentation>.texts>.about {
     color: var(--CinzaEscuro);
     font-family: "Montserrat";
     font-size: 0.875rem;
@@ -67,7 +67,7 @@
     text-decoration-line: underline;
 }
 
-.apresentation > .texts > .buttons{
+.apresentation>.texts>.buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -76,7 +76,7 @@
     width: 100%;
 }
 
-.apresentation > .texts > .buttons > .buttonSecundary{
+.apresentation>.texts>.buttons>.buttonSecundary {
     display: flex;
     padding: 0.90625rem 0.5rem;
     justify-content: center;
@@ -92,12 +92,12 @@
     font-weight: 700;
 }
 
-.apresentation > .texts > .buttons > .buttonSecundary:hover{
+.apresentation>.texts>.buttons>.buttonSecundary:hover {
     background: var(--Preto);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.apresentation > .texts > .buttons > .buttonPrimary{
+.buttonPrimary {
     display: flex;
     padding: 0.90625rem 0.5rem;
     justify-content: center;
@@ -111,9 +111,10 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
+    width: 35.5rem;
 }
 
-.apresentation > .sectioncarousel{
+.apresentation>.sectioncarousel {
     padding: 4rem 0rem;
     flex: 1 0 0;
     display: flex;
@@ -122,13 +123,14 @@
     align-items: center;
     align-self: stretch;
     gap: 1rem;
+    max-width: 717px;
 }
 
-.apresentation > .sectioncarousel > .carousel-inner > .carousel-item > img{
+.apresentation>.sectioncarousel>.carousel-inner>.carousel-item>img {
     width: 100%;
 }
 
-.particular{
+.particular {
     display: flex;
     padding: 3.125rem 6.5rem;
     flex-direction: column;
@@ -139,7 +141,7 @@
     background: var(--CinzaClaro);
 }
 
-.particular > h5{
+.sectionTitle {
     color: var(--CinzaEscuro);
     text-align: center;
     font-family: Poppins;
@@ -148,11 +150,11 @@
     font-weight: 700;
 }
 
-.particular > h5 > span{
+.sectionTitle>span {
     color: var(--Vermelho);
 }
 
-.particular > .cards{
+.particular>.cards {
     display: flex;
     width: 73rem;
     justify-content: center;
@@ -162,7 +164,7 @@
     flex-wrap: wrap;
 }
 
-.particular > .cards > .cardItem{
+.particular>.cards>.cardItem {
     display: flex;
     padding: 2rem 1rem;
     flex-direction: column;
@@ -174,25 +176,25 @@
     background: var(--Branco);
 }
 
-.particular > .cards > .cardItem > .cardHeader{
+.particular>.cards>.cardItem>.cardHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
 
-.particular > .cards > .cardItem > .cardHeader > div{
+.particular>.cards>.cardItem>.cardHeader>div {
     width: 3.625rem;
     height: 3.625rem;
 }
 
-.particular > .cards > .cardItem > .cardHeader > div > img{
+.particular>.cards>.cardItem>.cardHeader>div>img {
     width: 100%;
     height: 100%;
 }
 
 
-.particular > .cards > .cardItem > .cardHeader > .cardTitle{
+.particular>.cards>.cardItem>.cardHeader>.cardTitle {
     color: var(--Preto);
     text-align: center;
     font-family: "Poppins";
@@ -202,14 +204,14 @@
     line-height: normal;
 }
 
-.particular > .cards > .cardItem > .cardTexts{
+.particular>.cards>.cardItem>.cardTexts {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
 }
 
-.particular > .cards > .cardItem > .cardTexts > p{
+.particular>.cards>.cardItem>.cardTexts>p {
     color: var(--CinzaEscuro);
     text-align: center;
     font-family: "Montserrat";
@@ -218,11 +220,11 @@
     font-weight: 400;
 }
 
-.particular > .cards > .cardItem > .cardTexts > .cardTextsSupport{
+.particular>.cards>.cardItem>.cardTexts>.cardTextsSupport {
     font-size: 0.625rem;
 }
 
-.particular > h6{
+.particular>h6 {
     text-align: center;
     font-family: "Montserrat";
     font-size: 1.5rem;
@@ -230,28 +232,11 @@
     font-weight: 700;
 }
 
-.particular > h6 > span{
+.particular>h6>span {
     color: var(--Vermelho);
 }
 
-.particular > button{
-    display: flex;
-    width: 35.5rem;
-    padding: 0.875rem 1rem;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.5rem;
-    background: var(--Vermelho);
-    border: 0;
-    color: var(--Branco);
-    text-align: center;
-    font-family: "Poppins";
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 600;
-}
-
-.steps{
+.steps {
     display: flex;
     padding: 3.125rem 6.5rem;
     flex-direction: column;
@@ -260,14 +245,14 @@
     background: var(--Branco);
 }
 
-.steps > .cards{
+.steps>.cards {
     display: flex;
     height: 13.28813rem;
     align-items: center;
     gap: 2rem;
 }
 
-.steps > .cards > .cardItem{
+.steps>.cards>.cardItem {
     display: flex;
     padding: 1.875rem 1.5rem;
     flex-direction: column;
@@ -276,9 +261,12 @@
     flex: 1 0 0;
     border-radius: 1rem;
     background: var(--CinzaClaro);
+    position: relative;
+    height: 100%;
+    gap: 1rem;
 }
 
-.steps > .cards > .cardItem > .cardNumber{
+.steps>.cards>.cardItem>.cardNumber {
     display: flex;
     width: 2.125rem;
     height: 2.125rem;
@@ -291,17 +279,135 @@
     border: 1px solid var(--CinzaMedio);
 }
 
-.steps > .cards > .cardItem > .cardImage > img{
+.steps>.cards>.cardItem>.cardNumber>p {
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    color: var(--CinzaEscuro);
+}
+
+.steps>.cards>.cardItem>.cardImage>img {
     width: 3.625rem;
     height: 3.50419rem;
 }
 
-@media (max-width: 600px){
-    .apresentation{
+.steps>.cards>.cardItem>p {
+    font-weight: 700;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    color: var(--Preto);
+}
+
+.previewFaq {
+    display: flex;
+    padding: 2rem 6.5rem;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--CinzaClaro);
+}
+
+.previewFaq>div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.previewFaq>div>img {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.previewFaq>div>p {
+    color: var(--CinzaEscuro);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.84769rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    width: 5.93rem;
+}
+
+.previewFaq>div>p>span {
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.lojista {
+    display: flex;
+    padding: 3.125rem 6.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    align-self: stretch;
+    background-color: var(--Branco);
+}
+
+.lojista>.cards {
+    display: flex;
+    height: 12rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+.lojista>.cards>.cardItem {
+    display: flex;
+    width: 18.75rem;
+    padding: 1.5rem 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem;
+    background: var(--CinzaClaro);
+}
+
+.lojista>.cards>.cardItem>.cardHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lojista>.cards>.cardItem>.cardHeader>div {
+    width: 3.625rem;
+    height: 3.625rem;
+}
+
+.lojista>.cards>.cardItem>.cardHeader>div>img {
+    width: 3.625rem;
+    height: 3.625rem;
+}
+
+.lojista>.cards>.cardItem>.cardHeader>.cardTitle {
+    color: var(--Preto);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.lojista>.cards>.cardItem>.cardTexts>p {
+    color: var(--CinzaEscuro);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.05rem;
+}
+
+@media (max-width: 600px) {
+    .apresentation {
         padding: 1rem;
     }
 
-    .apresentation > .carousel {
+    .apresentation>.carousel {
         order: -1;
     }
 }
