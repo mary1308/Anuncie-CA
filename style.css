@@ -574,6 +574,85 @@
     border-left: 1px solid var(--Preto);
 }
 
+.about {
+    display: flex;
+    padding: 3.125rem 6.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.125rem;
+    align-self: stretch;
+    background-color: var(--CinzaClaro);
+}
+
+.about>.cards {
+    display: flex;
+    width: 73rem;
+    height: 14.6875rem;
+    max-width: 73rem;
+    min-height: 14.6875rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.about>.cards>.cardItem {
+    display: flex;
+    padding: 2rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex: 1 0 0;
+    border-radius: 1rem;
+    background: var(--Branco);
+    height: 100%;
+}
+
+.about>.cards>.cardItem>.cardHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about>.cards>.cardItem>.cardHeader>div {
+    width: 3.625rem;
+    height: 3.625rem;
+}
+
+.about>.cards>.cardItem>.cardHeader>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.about>.cards>.cardItem>.cardHeader>.cardTitle {
+    color: var(--Preto);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about>.cards>.cardItem>.cardTexts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.about>.cards>.cardItem>.cardTexts>p {
+    color: var(--CinzaEscuro);
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
 @media (max-width: 600px) {
     .apresentation {
         padding: 1rem;
