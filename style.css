@@ -508,6 +508,72 @@
     flex: 0;
 }
 
+.anuncios {
+    display: flex;
+    padding: 3.125rem 6.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    align-self: stretch;
+    background-color: var(--Branco);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.anuncios>.cards {
+    display: flex;
+    width: 77rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.anuncios>.cards>.cardItem {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.1875rem;
+    flex: 1 0 0;
+    border-radius: 1rem;
+    background: var(--CinzaClaro);
+}
+
+.anuncios>.cards>.cardItem>.cardHeader {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.anuncios>.cards>.cardItem>.cardHeader>img {
+    width: 3rem;
+}
+
+.anuncios>.cards>.cardItem>img {
+    height: 15.67581rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+}
+
+.anuncios>.cards>.cardItem>.data {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.anuncios>.cards>.cardItem>.data>div {
+    display: flex;
+    padding: 0rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-right: 1px solid var(--Preto);
+    border-left: 1px solid var(--Preto);
+}
+
 @media (max-width: 600px) {
     .apresentation {
         padding: 1rem;
