@@ -58,7 +58,7 @@
     font-weight: 400;
 }
 
-.apresentation>.texts>.about {
+.apresentation>.texts>.apresentationAbout {
     color: var(--CinzaEscuro);
     font-family: "Montserrat";
     font-size: 0.875rem;
@@ -670,6 +670,45 @@
     align-items: center;
     gap: 1rem;
 }
+
+footer {
+    display: flex;
+    padding: 2rem 7rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+    background-color: var(--CinzaClaro);
+}
+
+footer>img {
+    width: 29.25rem;
+    height: 3.39131rem;
+}
+
+footer>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer>div>p {
+    color: var(--Vermelho);
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-decoration-line: underline;
+}
+
+footer>div>img {
+    height: 2rem;
+    width: auto;
+}
+
 
 @media (max-width: 600px) {
     .apresentation {
