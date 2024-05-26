@@ -653,6 +653,24 @@
     font-weight: 400;
 }
 
+.help {
+    display: flex;
+    padding: 3.125rem 6.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+.help>.helpWidth {
+    display: flex;
+    width: 50rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 @media (max-width: 600px) {
     .apresentation {
         padding: 1rem;
