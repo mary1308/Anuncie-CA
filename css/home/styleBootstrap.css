@@ -1,0 +1,63 @@
+:root {
+  --Branco: #FDFCFC;
+  --Vermelho: #D83527;
+  --CinzaEscuro: #343A40;
+  --CinzaClaro: #F3F3F3;
+  --CinzaMedio: #7C7C7D;
+  --Preto: #030301;
+}
+
+.carousel-item {
+  height: 19rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.carousel-indicators {
+  position: relative;
+  margin: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--Vermelho);
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.accordion-item {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.accordion-button {
+  background-color: var(--Vermelho);
+  color: var(--Branco);
+  border-radius: 0.5rem;
+}
+
+.accordion-item:first-of-type {
+  border-radius: 0.5rem;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+  border-radius: 0.5rem;
+}
+
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+  border-radius: 0.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--Vermelho);
+  color: var(--Branco);
+}
+
+.accordion-button::after {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(173deg) brightness(103%) contrast(98%);
+}
