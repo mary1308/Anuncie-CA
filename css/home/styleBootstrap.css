@@ -61,3 +61,15 @@ p {
 .accordion-button::after {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(173deg) brightness(103%) contrast(98%);
 }
+
+@media screen and (min-width:576px){
+  #carouselInner{
+    display: flex;
+  }
+  
+  #carouselItem{
+    display: block;
+    flex: 0 0 calc(100%/4);
+  }
+  
+}

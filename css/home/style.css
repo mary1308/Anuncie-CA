@@ -141,7 +141,7 @@
     background: var(--CinzaClaro);
 }
 
-.sectionTitle {
+.particular > .sectionTitle {
     color: var(--CinzaEscuro);
     text-align: center;
     font-family: Poppins;
@@ -150,11 +150,11 @@
     font-weight: 700;
 }
 
-.sectionTitle>span {
+.particular > .sectionTitle>span {
     color: var(--Vermelho);
 }
 
-.particular>.cards {
+/* .particular>.cards {
     display: flex;
     width: 73rem;
     justify-content: center;
@@ -162,39 +162,39 @@
     gap: 2rem;
     flex: 1 0 0;
     flex-wrap: wrap;
-}
+} */
 
-.particular>.cards>.cardItem {
+.particular>.cardsCarousel>.cards>.cardItem {
     display: flex;
     padding: 2rem 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    flex: 1 0 0;
     border-radius: 1rem;
     background: var(--Branco);
+    max-width: 18rem;
 }
 
-.particular>.cards>.cardItem>.cardHeader {
+.particular>.cardsCarousel>.cards>.cardItem>.cardHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
 
-.particular>.cards>.cardItem>.cardHeader>div {
+.particular>.cardsCarousel>.cards>.cardItem>.cardHeader>div {
     width: 3.625rem;
     height: 3.625rem;
 }
 
-.particular>.cards>.cardItem>.cardHeader>div>img {
+.particular>.cardsCarousel>.cards>.cardItem>.cardHeader>div>img {
     width: 100%;
     height: 100%;
 }
 
 
-.particular>.cards>.cardItem>.cardHeader>.cardTitle {
+.particular>.cardsCarousel>.cards>.cardItem>.cardHeader>.cardTitle {
     color: var(--Preto);
     text-align: center;
     font-family: "Poppins";
@@ -204,14 +204,14 @@
     line-height: normal;
 }
 
-.particular>.cards>.cardItem>.cardTexts {
+.particular>.cardsCarousel>.cards>.cardItem>.cardTexts {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
 }
 
-.particular>.cards>.cardItem>.cardTexts>p {
+.particular>.cardsCarousel>.cards>.cardItem>.cardTexts>p {
     color: var(--CinzaEscuro);
     text-align: center;
     font-family: "Montserrat";
@@ -220,7 +220,7 @@
     font-weight: 400;
 }
 
-.particular>.cards>.cardItem>.cardTexts>.cardTextsSupport {
+.particular>.cardsCarousel>.cards>.cardItem>.cardTexts>.cardTextsSupport {
     font-size: 0.625rem;
 }
 
