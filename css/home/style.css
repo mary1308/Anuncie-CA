@@ -164,7 +164,7 @@
     flex-wrap: wrap;
 } */
 
-.particular>.cardsCarousel>.cards>.cardItem {
+.particular>.cardsCarousel>.cards>.carouselItem>.cardItem {
     display: flex;
     padding: 2rem 1rem;
     flex-direction: column;
@@ -176,25 +176,25 @@
     max-width: 18rem;
 }
 
-.particular>.cardsCarousel>.cards>.cardItem>.cardHeader {
+.particular>.cardsCarousel>.cards>.carouselItem>.cardItem>.cardHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
 
-.particular>.cardsCarousel>.cards>.cardItem>.cardHeader>div {
+.particular>.cardsCarousel>.cards>.carouselItem>.cardItem>.cardHeader>div {
     width: 3.625rem;
     height: 3.625rem;
 }
 
-.particular>.cardsCarousel>.cards>.cardItem>.cardHeader>div>img {
+.particular>.cardsCarousel>.cards>.carouselItem>.cardItem>.cardHeader>div>img {
     width: 100%;
     height: 100%;
 }
 
 
-.particular>.cardsCarousel>.cards>.cardItem>.cardHeader>.cardTitle {
+.particular>.cardsCarousel>.cards>.carouselItem>.cardItem>.cardHeader>.cardTitle {
     color: var(--Preto);
     text-align: center;
     font-family: "Poppins";
@@ -204,14 +204,14 @@
     line-height: normal;
 }
 
-.particular>.cardsCarousel>.cards>.cardItem>.cardTexts {
+.particular>.cardsCarousel>.cards>.carouselItem>.cardItem>.cardTexts {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
 }
 
-.particular>.cardsCarousel>.cards>.cardItem>.cardTexts>p {
+.particular>.cardsCarousel>.cards>.carouselItem>.cardItem>.cardTexts>p {
     color: var(--CinzaEscuro);
     text-align: center;
     font-family: "Montserrat";
@@ -220,7 +220,7 @@
     font-weight: 400;
 }
 
-.particular>.cardsCarousel>.cards>.cardItem>.cardTexts>.cardTextsSupport {
+.particular>.cardsCarousel>.cards>.carouselItem>.cardItem>.cardTexts>.cardTextsSupport {
     font-size: 0.625rem;
 }
 
