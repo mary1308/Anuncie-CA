@@ -63,12 +63,12 @@ p {
 }
 
 @media screen and (min-width:576px){
-  #carouselInner{
+  .particular>.cardsCarousel>.cards{
     display: flex;
   }
   
-  #carouselItem{
-    display: block;
+  .particular>.cardsCarousel>.cards>.carouselItem{
+    display: block !important;
     flex: 0 0 calc(100%/4);
   }
   
