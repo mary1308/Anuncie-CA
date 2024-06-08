@@ -62,14 +62,23 @@ p {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(173deg) brightness(103%) contrast(98%);
 }
 
-/* @media screen and (min-width:576px){
-  .particular>.cardsCarousel>.cards{
+@media screen and (min-width:576px){
+  .particular>.carousel>.carousel-inner{
     display: flex;
   }
   
-  .particular>.cardsCarousel>.cards>.carouselItem{
-    display: block !important;
-    flex: 0 0 calc(100%/4);
+  .particular>.carousel>.carousel-inner>.carousel-item{
+    display: block;
+    margin: 0 0.5rem;
+    height: auto;
   }
   
-} */
+  .particular>.cardsCarousel>.carousel-control-prev, .carousel-control-next{
+    display: none;
+  }
+  
+  .particular>.cardsCarousel>.carousel-indicators{
+    display: none;
+  }
+  
+}
