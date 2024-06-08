@@ -31,7 +31,7 @@
 }
 
 .apresentation>.texts {
-    width: 28.1875rem;
+    max-width: 28.1875rem;
     padding: 4rem 0rem;
     display: flex;
     flex-direction: column;
@@ -709,17 +709,6 @@ footer>div>img {
     width: auto;
 }
 
-
-@media (max-width: 600px) {
-    .apresentation {
-        padding: 1rem;
-    }
-
-    .apresentation>.carousel {
-        order: -1;
-    }
-}
-
 @media (max-width:576px) {
     .particular{
         padding: 2rem 1rem;
@@ -727,5 +716,29 @@ footer>div>img {
 
     .buttonPrimary{
         width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+    .apresentation {
+        padding: 1rem 1rem 2rem 1rem;
+        flex-direction: column;
+    }
+
+    .apresentation>.texts{
+        padding: 0;
+        max-width: none;
+    }
+
+    .apresentation>.carousel {
+        order: -1;
+    }
+
+    .apresentation>.sectioncarousel{
+        padding: 0;
+    }
+
+    .apresentation>.carousel>.carousel-inner{
+        height: auto;
     }
 }
