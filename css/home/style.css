@@ -719,3 +719,13 @@ footer>div>img {
         order: -1;
     }
 }
+
+@media (max-width:576px) {
+    .particular{
+        padding: 2rem 1rem;
+    }
+
+    .buttonPrimary{
+        width: 100%;
+    }
+}

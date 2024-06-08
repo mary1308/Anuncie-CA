@@ -82,3 +82,20 @@ p {
   }
   
 }
+
+@media (max-width:576px){
+  .particular>.carousel>.carousel-inner>.carousel-item{
+    height: auto;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem
+  }
+
+  .particular>.carousel>.carousel-control-prev{
+    left: -50px;
+  }
+
+  .particular>.carousel>.carousel-control-next{
+    right: -50px;
+  }
+}
