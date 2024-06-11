@@ -709,7 +709,40 @@ footer>div>img {
     width: auto;
 }
 
+/* para celulares */
+
 @media (max-width:576px) {
+
+    .apresentation{
+        padding: 2rem 1rem;
+    }
+
+    .apresentation>.texts{
+        padding: 0;
+    }
+
+    .apresentation>.texts>h3{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .apresentation>.texts>p{
+        font-size: 0.875rem;
+        text-align: center;
+    }
+
+    .apresentation>.carousel {
+        order: -1;
+    }
+
+    .apresentation>.sectioncarousel{
+        padding: 0;
+    }
+
+    .apresentation>.carousel>.carousel-inner{
+        height: auto;
+    }
+
     .particular{
         padding: 2rem 1rem;
     }
@@ -718,6 +751,8 @@ footer>div>img {
         width: 100%;
     }
 }
+
+/* apartir do celular */
 
 @media (min-width: 768px) and (max-width: 1200px){
     .apresentation {
